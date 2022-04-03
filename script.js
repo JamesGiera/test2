@@ -26,6 +26,14 @@ x.style.opacity = 0;
 
 
 
+function takz(){
+    var x = document.getElementById("takz");
+    if (x.style.opacity !== 0) {
+    x.style.opacity = 0;
+    }
+    }
+
+
 
 
 
