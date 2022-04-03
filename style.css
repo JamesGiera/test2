@@ -4,7 +4,12 @@
 body{margin:0;overflow-x:hidden;scroll-behavior:smooth;}
 
 @font-face{font-family: 'Amatic SC';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/amaticsc/v23/TUZyzwprpvBS1izr_vO0DQ.ttf) format('truetype')}@font-face{font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf) format('truetype')}@font-face{font-family: 'Quicksand';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/quicksand/v28/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkKEo18E.ttf) format('truetype')}@font-face{font-family: 'Roboto';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype')}@font-face{font-family: 'Roboto Serif';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/robotoserif/v5/R71RjywflP6FLr3gZx7K8UyuXDs9zVwDmXCb8lxYgmuii32UGoVldX6UgfjL4-3sMM_kB_qXSEXTJQCFLH5-_bcElnQtp6c.ttf) format('truetype')}
-
+.cookies-bar{position: fixed;bottom: 0;background-color: black;color: white;text-align: center;left: 0;right: 0;vertical-align: baseline;z-index: 1000;font-family: 'Roboto', sans-serif;animation-name: start2;animation-duration: 5s;transition: 1s;}
+.cookies-bar p{display: inline-block;margin-left: 20px;margin-right: 10px;}
+.cookies-bar div{display: inline-block;background-color: white;padding: 5px;margin: 20px; color: black;width: 50px;cursor: pointer;margin-left: 10px;}
+@keyframes start2 {0%  {transform: translateX(-2000px);opacity: 0%;} 70%  {transform: translateX(-2000px);opacity: 0%;} 100% {transform: translateX(0px);opacity: 100%;}}
+@media screen and (max-width: 1443px) {.cookies-bar p{font-size: 14px;}}
+@media screen and (max-width: 590px) {.cookies-bar{text-align: left;}.cookies-bar p{display: inline-block;} .cookies-bar div{margin-left: 20px;}}
 
 .logos{text-align: center;font-family: 'Amatic SC', cursive;color: rgb(255, 255, 255);font-size: 70px;font-weight: 100;text-shadow: 0 0 10px black;}
 .klasyka-gatunku{margin-top: 22%;line-height: 10px;position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;}
@@ -95,7 +100,7 @@ body{margin:0;overflow-x:hidden;scroll-behavior:smooth;}
 ::-webkit-scrollbar-thumb:hover {background: #555; }
 
 
-.overlay {font-family:'Quicksand',sans-serif;height:0%;width:100%;position:fixed;z-index:1;top:0;left:0;background-color:rgba(0, 0, 0, 0.884);overflow-y:hidden;transition:0.8s;}
+.overlay {font-family:'Quicksand',sans-serif;height:0%;width:100%;position:fixed;z-index:1001;top:0;left:0;background-color:rgba(0, 0, 0, 0.884);overflow-y:hidden;transition:0.8s;}
 .overlay-content {position:relative;top:25%;width:100%;text-align:center;margin-top:30px;margin-bottom: 10px;}
 .overlay a,.l9_turk{padding:8px;text-decoration:none;font-size:40px;color:#818181;display: block;transition:0.3s;}
 .overlay .l9_turk{transform: translateY(-36px);}
