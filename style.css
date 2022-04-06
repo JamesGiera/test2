@@ -11,7 +11,7 @@ body{margin:0;overflow-x:hidden;scroll-behavior:smooth;}
 @media screen and (max-width: 1443px) {.cookies-bar p{font-size: 14px;}}
 @media screen and (max-width: 590px) {.cookies-bar{text-align: left;}.cookies-bar p{display: inline-block;} .cookies-bar div{margin-left: 20px;}}
 
-.startpage{opacity: 100%;animation-name: start3;animation-duration: 1s;}
+.startpage{opacity: 100%;animation-name: start3;animation-duration: 3s;}
 @keyframes start3 {0%  {opacity: 0%;}  100% {opacity: 100%;}}
 
 .logos{text-align: center;font-family: 'Amatic SC', cursive;color: rgb(255, 255, 255);font-size: 70px;font-weight: 100;text-shadow: 0 0 10px black;}
