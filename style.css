@@ -13,6 +13,9 @@ body{margin:0;overflow-x:hidden;scroll-behavior:smooth;}
 
 
 
+
+
+
 .logos{text-align: center;font-family: 'Amatic SC', cursive;color: rgb(255, 255, 255);font-size: 70px;font-weight: 100;text-shadow: 0 0 10px black;}
 .klasyka-gatunku{margin-top: 22%;line-height: 10px;position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;}
 .kreska2{height: 1px;width: 300px;background-color: white;margin-left: auto;margin-right: auto;animation-name:start ;animation-duration: 2s;}
@@ -159,87 +162,9 @@ body{margin:0;overflow-x:hidden;scroll-behavior:smooth;}
 .under-the-under h2{font-size: 18px;}
 .under-the-under .links{padding-left: 10px;}
 .under-the-under p{margin-right: 20px;}}       
-.spanie{transform: translateY(-100px);margin-bottom: 100px;}
-.spanie h2{text-align: center; font-family: 'Amatic SC', cursive; color: black;;font-size: 32px;}
-.spanie h3{font-family: 'Quicksand', sans-serif;color: black;padding-left: 10px;}
-.spanie h4{padding-left: 20px;color: grey;padding-left: 10px;}   
-.spanie p{font-family: 'Montserrat', sans-serif;color: grey;padding-left: 10px;padding-right: 10px;}
-.spanie .druga-rozmazana-kreska{width: 200px;height: 2px;background-color: #D8CFAD;margin-left: auto;margin-right: auto;transform: translateY(-20px);box-shadow: 0 0 10px #D8CFAD}
-.spanie .pokoje{text-align: center;margin-top: 20px;}
-.spanie .pokoj{width: 30%;opacity: 100%;box-shadow: 0 0 5px  #D8CFAD; display: inline-block;border-radius: 5px; padding-bottom: 30px;text-align: left;overflow: hidden;margin-left: 5px;margin-right: 5px;}
-.spanie .pokoj  img{height: 21vw;width: 100%;box-shadow: 0 0 1px #35332d}
-.spanie .rozmazana-kreska1{width: 45px;height: 3px;background-color: black;padding-left: 10px;margin-left:10px;}
-@media screen and (max-width: 1344px) {.spanie p{font-size: large;}}
 
-
-.spanie .btn-showmore{background-color: #D8CFAD; color: white;text-align: center;padding-top: 5px;padding-bottom: 5px;width: 80%;margin-left: 10px;}
-.spanie {text-decoration: none;color: white;font-size: larger;font-family: 'Montserrat', sans-serif;}
-.spanie .btn-showmore{margin-top: 30px;margin-bottom: 20px;}
-@media screen and (max-width: 1344px) {.spanie p{font-size: large;}}
-
-
-@media screen and (max-width: 1050px) {
-  .spanie .pokoj  img{height: 40vw;}
-.spanie .pokoj{width: 70%; margin-bottom: 30px;}
-.spanie .btn-showmore{width: 60%;}}
-@media screen and (max-width: 806px) {
-  .spanie .pokoj{width: 85%;}
-  .spanie .pokoj  img{height: 50vw;}
-}
-@media screen and (max-width: 500px) {
-  .spanie .pokoj{width: 90%;}
-  .spanie .pokoj  img{height: 58vw;}
-  
-}
-.wyposazenie{font-weight:600; text-align: center;font-size: 24px;margin-bottom:300px; font-family: 'Amatic SC', cursive;max-width: 1100px;margin-left: auto;margin-right: auto;}
-.wyposazenie .druga-rozmazana-kreska{width: 200px;height: 2px;background-color: #D8CFAD;margin-left: auto;margin-right: auto;transform: translateY(-20px);box-shadow: 0 0 10px #D8CFAD}
-.wyposazenie h2{text-align: center;font-family: 'Amatic SC', cursive; color: black;}
-.wyposazenie .ballin {width: 30%;display: inline-block;text-align: left;vertical-align:text-top; }
-ul{margin-bottom: 20px;}
-#nic{color: white;} 
-
-
-@media screen and (max-width: 855px) {
-  .wyposazenie  .ballin{width: 49%;}
-  .wyposazenie {width: 80%;}
-}
-@media screen and (max-width: 756px) {
-.wyposazenie {margin-bottom: 10%;}
-.wyposazenie  .ballin{width: 70%;}
-.wyposazenie .prawa{transform: translateY(-70px);margin-top: 30px;}
-}
-@media screen and (max-width: 504px) {
-  .wyposazenie  .ballin{width: 85%;}
-  .wyposazenie .prawa{transform: translateY(-70px);}
-}
-
-
-@media screen and (max-width: 240px) {
-.przyjemniaczki h2{padding-top: 185px;;}}
-
-.przyjemniaczki h2{text-align: center;font-family: 'Amatic SC', cursive; margin-top: 0px;font-size:32px}
-.przyjemniaczki h3{font-family: 'Amatic SC', cursive;font-size: 25px;}
-.przyjemniaczki .druga-rozmazana-kreska{width: 200px;height: 2px;background-color: #D8CFAD;margin-left: auto;margin-right: auto;transform: translateY(-20px);box-shadow: 0 0 10px #D8CFAD}
-.przyjemniaczki .atrakcje-movin{text-align: center;}
-.przyjemniaczki .atrakcja{width: 32%;display: inline-block;padding-bottom: 30px;margin-left: 3px;margin-right: 3px;}
-.przyjemniaczki .atrakcja  img{width: 100%;height: 400px;margin: 5px; opacity: 100%;box-shadow: 0 0 2px black}
-.przyjemniaczki{margin-top: 30px;margin-bottom: 20px;}
-@media screen and (max-width: 1500px) {
-.przyjemniaczki .atrakcja{width: 48%;}
-.przyjemniaczki .atrakcja  img{height: 60%;}}
-@media screen and (max-width: 894px) {
-.przyjemniaczki .atrakcja{width: 80%;}}
-@media screen and (max-width: 530px) {
-.przyjemniaczki .atrakcja  img{height: 60%;width: 100%;}
-.przyjemniaczki .atrakcja{width: 90%;}}
-@media screen and (max-width: 400px) {
-.przyjemniaczki{padding-top: 100px;}}
-@media screen and (min-width: 1152px) {
-.przyjemniaczki{transform: translateY(-50px);}}
-@media screen and (min-width: 1450px) {
-.przyjemniaczki{transform: translateY(-150px);}}
-.footer{ background-color: rgb(46, 43, 43);color: white;text-align: center;font-family: 'Roboto Serif', sans-serif;font-size: 15px;line-height: 0.5cm;padding-top:20px;margin-top: 60px;}
-.fo{display: inline-block;padding-left: 5%;padding-right: 5%;}
+.footer{ background-color: rgb(46, 43, 43);color: white;text-align: center;font-family: 'Roboto Serif', sans-serif;font-size: 15px;line-height: 0.5cm;padding-top:0px;margin-top: 0px;}
+.fo{display: inline-block;padding-left: 5%;padding-right: 5%;margin-top: 20px;}
 .tna3{transform: translateY(9px);}
 .rozmazana-kreska{width: 130px;height: 2px;background-color: #D8CFAD; ;transform: translateY(-15px);margin-left: auto;margin-right: auto; }
 .footer a{text-decoration: none;color: white;}
@@ -254,7 +179,8 @@ h3 a{font-weight: 100;}
 .footer h2{font-weight: 100;}
 .the-last-war{width: 100%;height: 10px;background-color: #D8CFAD;}
 @media screen and (max-width: 860px) {  
- .footer .jna3 .options {text-align: center;}     
+ .footer .jna3 .options  {text-align: center;} 
+    
 .footer .fo{padding-left: 20%;padding-right: 20%;}
 .footer .tna3 .options{transform: translateX(-10px);}
 }
