@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="style.css">
 
   <style>
-    .spanie{margin-top: 8%; margin-bottom: 250px;}
+        .spanie{margin-top: 6%; margin-bottom: 250px;}
 .spanie .container .zobaczwiecej-spanie{margin-left: auto;margin-right: auto;color: white;background-color: white;padding: 0px;width: 0px;text-align: center;position: absolute;display: none;}
 .spanie h2{text-align: center; font-family: 'Amatic SC', cursive; color: black;;font-size: 32px;}
 .spanie h3{font-family: 'Quicksand', sans-serif;color: black;padding-left: 10px;}
@@ -44,10 +44,17 @@
 @media screen and (max-width: 500px) {
   .spanie .pokoj{width: 90%;}
   .spanie .pokoj  img{height: 58vw;}
-  
+  .spanie{transform: translateY(-50px); margin-bottom: 250px;}
 }
+.start img{border-bottom:50px solid black;}
 @media screen and (max-width: 602px) {
 .spanie .pokoje,.spanie h2,.spanie .druga-rozmazana-kreska{display:block ;}}
+.adres-ip{margin-left:30px ;}
+@media screen and (max-width: 632px) {
+.adres-ip{font-size: smaller;margin-left: 5px;}}
+@media screen and (max-width: 432px) {
+  .adres-ip{display: none;}.start img{border-bottom:0px solid black;box-shadow: 0 0  10px black;margin-bottom: 0px;}}
+
   </style>
 </head>
 <body>
