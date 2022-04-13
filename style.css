@@ -272,4 +272,24 @@ h3 a{font-weight: 100;}
 
 
 .show {display: block;}
+.wyposazenie{font-weight:600; text-align: center;font-size: 24px;margin-bottom:200px; font-family: 'Amatic SC', cursive;max-width: 1100px;margin-left: auto;margin-right: auto;}
+.wyposazenie .druga-rozmazana-kreska{width: 200px;height: 2px;background-color: #D8CFAD;margin-left: auto;margin-right: auto;transform: translateY(-20px);box-shadow: 0 0 10px #D8CFAD}
+.wyposazenie h2{text-align: center;font-family: 'Amatic SC', cursive; color: black;}
+.wyposazenie .ballin {width: 30%;display: inline-block;text-align: left;vertical-align:text-top; }
+ul{margin-bottom: 20px;}
+#nic{color: white;} 
 
+
+@media screen and (max-width: 855px) {
+  .wyposazenie  .ballin{width: 49%;}
+  .wyposazenie {width: 80%;}
+}
+@media screen and (max-width: 756px) {
+.wyposazenie {margin-bottom: 10%;}
+.wyposazenie  .ballin{width: 70%;}
+.wyposazenie .prawa{transform: translateY(-70px);margin-top: 30px;}
+}
+@media screen and (max-width: 504px) {
+  .wyposazenie  .ballin{width: 85%;}
+  .wyposazenie .prawa{transform: translateY(-70px);}
+}
