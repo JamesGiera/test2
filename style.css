@@ -308,7 +308,7 @@ ul{margin-bottom: 20px;}
   .przyjemniaczki .druga-rozmazana-kreska{width: 200px;height: 2px;background-color: #D8CFAD;margin-left: auto;margin-right: auto;transform: translateY(-16px);}
   .przyjemniaczki .atrakcje-movin{text-align: center;}
   .przyjemniaczki .atrakcja{width: 26%;display: inline-block;padding-bottom: 30px;margin-left: 3px;margin-right: 3px;}
-  .przyjemniaczki .atrakcja  img{width: 100%;margin: 5px; opacity: 100%;box-shadow: 0 0 0px black;height: 200px;}
+  .przyjemniaczki .atrakcja  img{width: 100%;margin: 5px; opacity: 100%;box-shadow: 0 0 0px black;height: 300px;}
   .przyjemniaczki{transform: translateY(320px); margin-bottom: 0px;clear: both;}
   @media screen and (max-width: 1500px) {
   .przyjemniaczki .atrakcja{width: 48%;}
